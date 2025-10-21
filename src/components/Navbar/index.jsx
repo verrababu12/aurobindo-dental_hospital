@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import "./index.css";
 import { IoMdMenu } from "react-icons/io";
 import { MdClose } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <nav className="navbar">
-      <div className="logo-container">
+      <div className="logo-container" onClick={() => navigate("/")}>
         <img
           src="https://res.cloudinary.com/daehuqvdc/image/upload/v1760938281/ffd2d5f2-5db6-4c4a-96bb-80e6745f2663_ohatfx.jpg"
           alt="image-logo"

@@ -1,5 +1,6 @@
 // Footer.jsx
 import "./index.css";
+import Search from "../Search";
 
 const Footer = () => {
   return (
@@ -13,6 +14,7 @@ const Footer = () => {
         <p>Phone: 9866937777 / 9032018887 / 9347294612</p>
         <p>Email: aurobindodental@gmail.com</p>
       </div>
+      <Search />
 
       <div className="footer-form">
         <h3>Leave a Reply</h3>
