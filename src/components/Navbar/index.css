@@ -10,16 +10,6 @@ body {
   padding-top: 80px;
 }
 
-/* .navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 15px 15px;
-  background: #63aff0;
-  color: white;
-  position: sticky;
-  z-index: 10;
-} */
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -27,11 +17,11 @@ body {
   padding: 15px 15px;
   background: #63aff0;
   color: white;
-  position: fixed; /* <-- changed from static to fixed */
-  top: 0; /* stick to the top */
+  position: fixed;
+  top: 0;
   left: 0;
-  width: 100%; /* full width */
-  z-index: 1000; /* ensure it stays above other content */
+  width: 100%;
+  z-index: 1000;
 }
 
 .logo-container {
@@ -65,10 +55,8 @@ body {
   border-radius: 6px;
   transition: background 0.3s ease, color 0.3s ease;
 }
-
-/* Hover Effect */
 .nav-links a:hover {
-  background: #ff9800; /* or try #63aff0 for theme match */
+  background: #ff9800;
   color: white;
 }
 
