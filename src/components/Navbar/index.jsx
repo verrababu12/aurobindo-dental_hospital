@@ -33,22 +33,22 @@ const Navbar = () => {
         </li>
         <li>
           <a href="/about" onClick={() => setMenuOpen(false)}>
-            ABOUTUS
+            ABOUT US
           </a>
         </li>
         <li>
           <a href="/services" onClick={() => setMenuOpen(false)}>
-            DENTALTREATMENTS
+            DENTAL TREATMENTS
           </a>
         </li>
         <li>
           <a href="/charges" onClick={() => setMenuOpen(false)}>
-            TREATMENTCHARGES
+            TREATMENT CHARGES
           </a>
         </li>
         <li>
           <a href="/tourism" onClick={() => setMenuOpen(false)}>
-            DENTALTOURISM
+            DENTAL TOURISM
           </a>
         </li>
         <li>
@@ -58,7 +58,7 @@ const Navbar = () => {
         </li>
         <li>
           <a href="/contact" onClick={() => setMenuOpen(false)}>
-            CONTACTUS
+            CONTACT US
           </a>
         </li>
       </ul>
