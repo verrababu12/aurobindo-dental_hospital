@@ -1,27 +1,3 @@
-// import React from "react";
-// import { BrowserRouter as Router, Route } from "react-router-dom";
-// import Navbar from "./components/Navbar";
-// import Intro from "./components/Intro";
-// import Home from "./components/Home";
-// import About from "./components/About";
-// import DentalTreatments from "./components/DentalTreatments";
-// import TreatmentCharges from "./components/TreatmentCharges";
-
-// const App = () => {
-//   return (
-//     <>
-//       <Navbar />
-//       <Intro />
-//       <Home />
-//       <About />
-//       <DentalTreatments />
-//       <TreatmentCharges />
-//     </>
-//   );
-// };
-
-// export default App;
-import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";

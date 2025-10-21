@@ -62,8 +62,8 @@
 }
 .footer-checkbox {
   display: flex;
-  align-items: center; /* vertically center the checkbox and label */
-  gap: 10px; /* space between checkbox and label */
+  align-items: center;
+  gap: 10px;
 }
 
 .footer-checkbox input[type="checkbox"] {

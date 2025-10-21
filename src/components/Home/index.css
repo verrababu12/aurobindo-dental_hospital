@@ -7,7 +7,6 @@
   flex-wrap: wrap;
 }
 
-/* Image (Left Side) */
 .home-image {
   flex: 1;
   display: flex;
@@ -22,7 +21,6 @@
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Content (Right Side) */
 .home-content {
   flex: 1;
   min-width: 280px;
@@ -42,7 +40,6 @@
   line-height: 1.6;
 }
 
-/* Read More Button */
 .read-more-btn {
   background: #63aff0;
   color: white;
@@ -59,7 +56,6 @@
   transform: scale(1.05);
 }
 
-/* Responsive */
 @media screen and (max-width: 768px) {
   .home-section {
     flex-direction: column;
