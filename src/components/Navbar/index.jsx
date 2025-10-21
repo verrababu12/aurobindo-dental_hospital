@@ -14,7 +14,7 @@ const Navbar = () => {
           alt="image-logo"
           className="logo"
         />
-        <h1>Dental</h1>
+        <h1 className="navbar-heading">Dental</h1>
       </div>
 
       <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
