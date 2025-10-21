@@ -1,0 +1,72 @@
+.dental-section {
+  padding: 60px 10%;
+  background: linear-gradient(135deg, #d4f1f9, #e8f9fd);
+  color: #333;
+  line-height: 1.7;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #3b2e8a;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.treatment {
+  margin-bottom: 40px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.treatment h3 {
+  color: #3b2e8a;
+  margin-bottom: 10px;
+}
+
+.treatment ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+.read-more-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.read-more-btn {
+  background-color: #3b2e8a;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.read-more-btn:hover {
+  background-color: #5b47c1;
+  transform: scale(1.05);
+}
+.prices-section {
+  background: #fafafa;
+  padding: 40px 10%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.price-list p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 6px;
+}

@@ -1,0 +1,32 @@
+.dental-tourism {
+  background: linear-gradient(135deg, #d4f1f9, #e8f9fd);
+  padding: 60px 10%;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+
+.dental-tourism h2 {
+  color: #4b3ea7;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.dental-tourism h3 {
+  color: #51409e;
+  font-size: 22px;
+  margin: 20px 0 10px;
+}
+
+.dental-tourism ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.dental-tourism li {
+  margin-bottom: 8px;
+}
+
+.dental-tourism p {
+  margin-bottom: 15px;
+}

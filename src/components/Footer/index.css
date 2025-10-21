@@ -1,0 +1,79 @@
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.footer-contact,
+.footer-form {
+  flex: 1 1 400px;
+  min-width: 300px;
+}
+
+.footer-contact h3,
+.footer-form h3 {
+  color: #f9c74f;
+  margin-bottom: 15px;
+}
+
+.footer-contact p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.footer-form form label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.footer-form input,
+.footer-form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+}
+
+.footer-form .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-form button {
+  background-color: #f9c74f;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-form button:hover {
+  background-color: #e0b90f;
+}
+.footer-checkbox {
+  display: flex;
+  align-items: center; /* vertically center the checkbox and label */
+  gap: 10px; /* space between checkbox and label */
+}
+
+.footer-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.footer-checkbox label {
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 5px;
+}
