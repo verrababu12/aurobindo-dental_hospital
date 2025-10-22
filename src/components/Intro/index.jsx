@@ -1,6 +1,7 @@
 import "./index.css";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa";
 import Home from "../Home";
 import About from "../About";
@@ -10,6 +11,7 @@ import DentalTourism from "../DentalTourism";
 import Faqs from "../Faqs";
 
 const Intro = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="intro">
@@ -61,7 +63,12 @@ const Intro = () => {
             </a>
           </div>
 
-          <button className="intro-book-btn">Book Demo</button>
+          <button
+            className="intro-book-btn"
+            onClick={() => navigate("/book-demo")}
+          >
+            Book Demo
+          </button>
         </div>
 
         <div className="intro-image">

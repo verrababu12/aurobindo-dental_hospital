@@ -5,8 +5,9 @@ export const searchData = [
     entries: [
       {
         keyword: "home",
-        snippet:
+        snippet: [
           "Welcome to our Dental Clinic! Explore our services, treatments, and special offers.",
+        ],
       },
       {
         keyword: "introduction",

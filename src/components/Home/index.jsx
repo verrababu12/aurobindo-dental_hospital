@@ -1,8 +1,12 @@
 import "./index.css";
+import { useLocation } from "react-router-dom";
 
 const HomeSection = () => {
+  const location = useLocation();
+  const snippet = location.state?.snippet;
   return (
     <>
+      {snippet && <p className="snippet-box">{snippet}</p>}
       <section className="home-section">
         <div className="home-image">
           <img

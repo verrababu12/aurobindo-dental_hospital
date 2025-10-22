@@ -19,19 +19,23 @@ const Footer = () => {
       <div className="footer-form">
         <h3>Leave a Reply</h3>
         <p>
-          Your email address will not be published. Required fields are marked *
+          Your email address will not be published. Required fields are marked{" "}
+          <span className="required">*</span>
         </p>
         <form>
           <label>
-            Comment *<br />
+            Comment <span className="required">*</span>
+            <br />
             <textarea required rows="4"></textarea>
           </label>
           <label>
-            Name *<br />
+            Name <span className="required">*</span>
+            <br />
             <input type="text" required />
           </label>
           <label>
-            Email *<br />
+            Email <span className="required">*</span>
+            <br />
             <input type="email" required />
           </label>
           <label>

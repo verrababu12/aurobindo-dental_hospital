@@ -9,6 +9,9 @@ import TreatmentCharges from "./components/TreatmentCharges";
 import DentalTourism from "./components/DentalTourism";
 import Faqs from "./components/Faqs";
 import Contact from "./components/Contact";
+import AppointmentForm from "./components/AppointmentForm";
+import AppointmentSuccess from "./components/AppointmentSuccess";
+
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -17,6 +20,8 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Intro />} />
+        <Route path="/book-demo" element={<AppointmentForm />} />
+        <Route path="/success" element={<AppointmentSuccess />} />
         <Route path="/home" element={<Home />} />
         <Route path="/search" element={<Search />} />
         <Route path="/about" element={<About />} />
