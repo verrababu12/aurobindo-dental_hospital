@@ -6,7 +6,6 @@ const HomeSection = () => {
   const snippet = location.state?.snippet;
   return (
     <>
-      {snippet && <p className="snippet-box">{snippet}</p>}
       <section className="home-section">
         <div className="home-image">
           <img
@@ -14,6 +13,8 @@ const HomeSection = () => {
             alt="Aurobindo Dental Team"
           />
         </div>
+
+        {snippet && <p className="snippet-box">{snippet}</p>}
 
         <div className="home-content">
           <h2>Aurobindo Dental Hospital</h2>
