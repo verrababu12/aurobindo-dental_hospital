@@ -1,5 +1,7 @@
 import "./index.css";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa";
 import Home from "../Home";
 import About from "../About";
 import DentalTreatments from "../DentalTreatments";
@@ -23,30 +25,39 @@ const Intro = () => {
           </p>
 
           <div className="contact-info">
-            <p>📞 9866937777 / 9032018887 / 9347294612</p>
+            <p>
+              <BsFillTelephoneFill /> 9866937777 / 9032018887 / 9347294612
+            </p>
           </div>
 
           <div className="intro-social-icons">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/aurobindodental"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaFacebookF />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/aurobindodentalhospital/#"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://twitter.com/dentalaurobindo"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaTwitter />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/aurobindodentalhospital/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
             </a>
           </div>
 
